@@ -1,7 +1,7 @@
 import React from "react";
 import {Link, withRouter} from "react-router-dom";
 const styleNav = {
-  background: '#55A1C9'
+  background: '#f5f5f5'
 }
 
 const buttonsStyle = {

@@ -4,7 +4,7 @@ import Button from "react-bootstrap/Button";
 
 import "../style/login.css"
 
-export default function Login() {
+export default function Register() {
     const [nume, setNume] = useState("");
     const [prenume, setPrenume] = useState("");  
     const [email, setEmail] = useState("");

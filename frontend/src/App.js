@@ -9,14 +9,16 @@ function App() {
      <Router>
        <Navigation/>
        <Switch>
-         <Route path="/" exact component={()=> <Home/>}/>
-         <Route path="/Login" exact component={()=> <Login/>}/>
+         <Route path="/Home" exact component={()=> <Home/>}/>
+         <Route path="/" exact component={()=> <Login/>}/>
          <Route path="/Register" exact component={()=> <Register/>}/>
          <Route path="/Dashboard" exact component={()=> <Dashboard/>}/>
          <Route path="/SignaturePad" exact component={()=> <SignaturePad/>}/>
          <Route path="/Covid-Chestionar" exact component={()=> <CovidChestionar/>}/>
 
        </Switch>
+       {Location.pathname !== '/Register' && <Footer />}
+       
        <Footer/>
      </Router>
     </div>
