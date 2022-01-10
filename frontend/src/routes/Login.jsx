@@ -78,7 +78,7 @@ export default function Login(){
                         id="m_login_forget_password"
                         className="m-link"
                       >
-                        Forget Password ?
+                       Ai uitat parola ?
                       </a>
                     </div>
                   </div>
@@ -164,7 +164,7 @@ export default function Login(){
               </div>
               <div className="m-login__forget-password">
                 <div className="m-login__head">
-                  <h3 className="m-login__title">Forgotten Password ?</h3>
+                  <h3 className="m-login__title">Ai uitat parola ?</h3>
                   <div className="m-login__desc">
                     Enter your email to reset your password:
                   </div>
@@ -201,7 +201,7 @@ export default function Login(){
           <div className="m-stack__item m-stack__item--center">
             <div className="m-login__account">
               <span className="m-login__account-msg">
-                Don't have an account yet ?
+               Nu ai cont inca ?
               </span>
               &nbsp;&nbsp;
               <a
@@ -209,7 +209,7 @@ export default function Login(){
                 id="m_login_signup"
                 className="m-link m-link--focus m-login__account-link"
               >
-                Sign Up
+                Inregistreaza-te
               </a>
             </div>
           </div>
@@ -222,11 +222,11 @@ export default function Login(){
         }}
       >
         <div className="m-grid__item m-grid__item--middle">
-          <h3 className="m-login__welcome">Join Our Community</h3>
+          <h3 className="m-login__welcome">Bun venit la Stoma Life</h3>
           <p className="m-login__msg">
-            Lorem ipsum dolor sit amet, coectetuer adipiscing
-            <br />
-            elit sed diam nonummy et nibh euismod
+           O platforma care va face viata mai usoara!
+           
+           
           </p>
         </div>
       </div>
