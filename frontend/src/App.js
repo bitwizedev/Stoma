@@ -8,6 +8,7 @@ class App extends React.Component {
     const scriptsPath = [
       process.env.PUBLIC_URL + "js/vendors.bundle.js",
       process.env.PUBLIC_URL + "js/scripts.bundle.js",
+      process.env.PUBLIC_URL + "js/login.js",
       process.env.PUBLIC_URL + "js/wizard.js",
       "https://ajax.googleapis.com/ajax/libs/webfont/1.6.16/webfont.js",
       process.env.PUBLIC_URL + "js/load_font.js"
