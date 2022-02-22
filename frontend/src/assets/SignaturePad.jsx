@@ -50,7 +50,7 @@ export default function Signaturepad() {
           src={imageURL}
           alt="my signature"
           style={{
-            display: "block",
+            display: "left",
             margin: "0 auto",
             border: "1px solid black",
             width: "150px"

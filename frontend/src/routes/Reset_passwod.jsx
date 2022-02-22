@@ -8,7 +8,7 @@ import logo from "../static/tooth.png";
 
  
 
-export default function Login(){
+export default function ResetPassword(){
   return (
     <div >
       ;<>
@@ -44,7 +44,7 @@ export default function Login(){
               </div>
               <div className="m-login__signin">
                 <div className="m-login__head">
-                  <h3 className="m-login__title">Autentificare Admin</h3>
+                  <h3 className="m-login__title">Resetare Parola</h3>
                 </div>
                 <form className="m-login__form m-form" action>
                   <div className="form-group m-form__group">
@@ -56,38 +56,13 @@ export default function Login(){
                       autoComplete="off"
                     />
                   </div>
-                  <div className="form-group m-form__group">
-                    <input
-                      className="form-control m-input m-login__form-input--last"
-                      type="password"
-                      placeholder="Password"
-                      name="password"
-                    />
-                  </div>
-                  <div className="row m-login__form-sub">
-                    <div className="col m--align-left">
-                      <label className="m-checkbox m-checkbox--focus">
-                        <input type="checkbox" name="remember" />
-                        Tine-ma minte
-                        <span />
-                      </label>
-                    </div>
-                    <div className="col m--align-right">
-                      <a
-                        href="javascript:;"
-                        id="m_login_forget_password"
-                        className="m-link"
-                      >
-                       Ai uitat parola ?
-                      </a>
-                    </div>
-                  </div>
+                  
                   <div className="m-login__form-action">
                     <button
                       id="m_login_signin_submit"
                       className="btn btn-focus m-btn m-btn--pill m-btn--custom m-btn--air"
                     >
-                      Sign In
+                     Reset
                     </button>
                   </div>
                 </form>
@@ -201,15 +176,15 @@ export default function Login(){
           <div className="m-stack__item m-stack__item--center">
             <div className="m-login__account">
               <span className="m-login__account-msg">
-              Ai uitat Parola?
+              Mergi inapoi la Login
               </span>
               &nbsp;&nbsp;
               <a
-                href="/Reset-Password"
+                href="/"
                 id="m_login_signup"
                 className="m-link m-link--focus m-login__account-link"
               >
-                Aici o poti reseta
+                Login
               </a>
             </div>
           </div>

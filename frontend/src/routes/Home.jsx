@@ -1,7 +1,10 @@
 import React from "react";
+import Navbar from "../components/Navbar";
 
 function Home(){
     return (
+        <div>
+          <Navbar/>
         <div className ="home">
             <div class="container">
                 <div class="row align-items-center my-5">
@@ -18,6 +21,7 @@ function Home(){
                     
                 </div>
             </div>
+        </div>
         </div>
     );
 }

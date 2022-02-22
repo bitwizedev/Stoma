@@ -1,25 +1,24 @@
 import React from "react";
 import {BrowserRouter as Router, Route, Switch} from "react-router-dom";
-import {Navigation,Footer, Home, Login, Register, Dashboard, SignaturePad,CovidChestionar} from "./components/index";
+import {Navbar,Footer, Home, Login, Register, Dashboard, SignaturePad,CovidChestionar,AdaugaPacient, ResetPassword} from "./components/index";
 
 
 function App() {
   return (
     <div className="App">
      <Router>
-       <Navigation/>
+       
        <Switch>
          <Route path="/Home" exact component={()=> <Home/>}/>
          <Route path="/" exact component={()=> <Login/>}/>
+        <Route path="/Adauga-Pacient" exact component={()=> <AdaugaPacient/>}/>
          <Route path="/Register" exact component={()=> <Register/>}/>
          <Route path="/Dashboard" exact component={()=> <Dashboard/>}/>
          <Route path="/SignaturePad" exact component={()=> <SignaturePad/>}/>
          <Route path="/Covid-Chestionar" exact component={()=> <CovidChestionar/>}/>
-
+         <Route path="/Reset-Password" exact component={()=> <ResetPassword/>}/>
        </Switch>
-       {Location.pathname !== '/Register' && <Footer />}
-       
-       <Footer/>
+
      </Router>
     </div>
   );
