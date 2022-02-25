@@ -132,18 +132,274 @@ export default function HomeDashboard(){
 					{/*end::Portlet*/}
 				  </div>
 				  <div className="col-md-6">
-					<div className="m-portlet m-portlet--tab">
+					
+					<div className="m-portlet m-portlet--full-height ">
 						<div className="m-portlet__head">
-							<div className="m-portlet__head-caption">
+						<div className="m-portlet__head-caption">
 							<div className="m-portlet__head-title">
-								<span className="m-portlet__head-icon m--hide">
-								<i className="la la-gear" />
-								</span>
-								<h3 className="m-portlet__head-text">
-								Consultații astăzi
-								</h3>
+							<h3 className="m-portlet__head-text">
+							Programări astăzi
+							</h3>
 							</div>
+						</div>
+						<div className="m-portlet__head-tools">
+							<ul className="nav nav-pills nav-pills--brand m-nav-pills--align-right m-nav-pills--btn-pill m-nav-pills--btn-sm" role="tablist">
+							<li className="nav-item m-tabs__item">
+								<a className="nav-link m-tabs__link active" data-toggle="tab" href="#m_widget2_tab1_content" role="tab">
+								Astăzi
+								</a>
+							</li>
+							<li className="nav-item m-tabs__item">
+								<a className="nav-link m-tabs__link" data-toggle="tab" href="#m_widget2_tab2_content" role="tab">
+								Mâine
+								</a>
+							</li>
+							</ul>
+						</div>
+						</div>
+						<div className="m-portlet__body">
+						<div className="tab-content">
+							<div className="tab-pane active" id="m_widget2_tab1_content">
+							{/*Begin::Timeline 3 */}
+							<div className="m-timeline-3">
+								<div className="m-timeline-3__items">
+								<div className="m-timeline-3__item m-timeline-3__item--info">
+									<span className="m-timeline-3__item-time">
+									09:00
+									</span>
+									<div className="m-timeline-3__item-desc">
+									<span className="m-timeline-3__item-text">
+										Detartraj
+									</span>
+									<br />
+									<span className="m-timeline-3__item-user-name">
+										<a href="#" className="m-link m-link--metal m-timeline-3__item-link">
+										Tomoiu Dan-Cristian, 23 ani
+										</a>
+									</span>
+									</div>
+								</div>
+								<div className="m-timeline-3__item m-timeline-3__item--warning">
+									<span className="m-timeline-3__item-time">
+									10:00
+									</span>
+									<div className="m-timeline-3__item-desc">
+									<span className="m-timeline-3__item-text">
+										Periaj
+									</span>
+									<br />
+									<span className="m-timeline-3__item-user-name">
+										<a href="#" className="m-link m-link--metal m-timeline-3__item-link">
+										Tomoiu Dan-Cristian, 23 ani
+										</a>
+									</span>
+									</div>
+								</div>
+								<div className="m-timeline-3__item m-timeline-3__item--brand">
+									<span className="m-timeline-3__item-time">
+									11:00
+									</span>
+									<div className="m-timeline-3__item-desc">
+									<span className="m-timeline-3__item-text">
+										Tratament canal
+									</span>
+									<br />
+									<span className="m-timeline-3__item-user-name">
+										<a href="#" className="m-link m-link--metal m-timeline-3__item-link">
+										Voicu Bogdan, 23 ani
+										</a>
+									</span>
+									</div>
+								</div>
+								<div className="m-timeline-3__item m-timeline-3__item--success">
+									<span className="m-timeline-3__item-time">
+									12:00
+									</span>
+									<div className="m-timeline-3__item-desc">
+									<span className="m-timeline-3__item-text">
+										Tratament canal 2
+									</span>
+									<br />
+									<span className="m-timeline-3__item-user-name">
+										<a href="#" className="m-link m-link--metal m-timeline-3__item-link">
+										Tomoiu Samuel, 18 ani
+										</a>
+									</span>
+									</div>
+								</div>
+								<div className="m-timeline-3__item m-timeline-3__item--danger">
+									<span className="m-timeline-3__item-time">
+									14:00
+									</span>
+									<div className="m-timeline-3__item-desc">
+									<span className="m-timeline-3__item-text">
+										Detartraj
+									</span>
+									<br />
+									<span className="m-timeline-3__item-user-name">
+										<a href="#" className="m-link m-link--metal m-timeline-3__item-link">
+										Voicu Bogdan, 23 ani
+										</a>
+									</span>
+									</div>
+								</div>
+								<div className="m-timeline-3__item m-timeline-3__item--info">
+									<span className="m-timeline-3__item-time">
+									15:00
+									</span>
+									<div className="m-timeline-3__item-desc">
+									<span className="m-timeline-3__item-text">
+									Plomba
+									</span>
+									<br />
+									<span className="m-timeline-3__item-user-name">
+										<a href="#" className="m-link m-link--metal m-timeline-3__item-link">
+										Voicu Bogdan, 23 ani
+										</a>
+									</span>
+									</div>
+								</div>
+								<div className="m-timeline-3__item m-timeline-3__item--brand">
+									<span className="m-timeline-3__item-time">
+									17:00
+									</span>
+									<div className="m-timeline-3__item-desc">
+									<span className="m-timeline-3__item-text">
+										Operație
+									</span>
+									<br />
+									<span className="m-timeline-3__item-user-name">
+										<a href="#" className="m-link m-link--metal m-timeline-3__item-link">
+										Tomoiu Dan-Cristian, 23 ani
+										</a>
+									</span>
+									</div>
+								</div>
+								</div>
 							</div>
+							{/*End::Timeline 3 */}
+							</div>
+							<div className="tab-pane" id="m_widget2_tab2_content">
+							{/*Begin::Timeline 3 */}
+							<div className="m-timeline-3">
+								<div className="m-timeline-3__items">
+								<div className="m-timeline-3__item m-timeline-3__item--info">
+									<span className="m-timeline-3__item-time">
+									09:00
+									</span>
+									<div className="m-timeline-3__item-desc">
+									<span className="m-timeline-3__item-text">
+										Consultatie
+									</span>
+									<br />
+									<span className="m-timeline-3__item-user-name">
+										<a href="#" className="m-link m-link--metal m-timeline-3__item-link">
+										Tomoiu Dan-Cristian, 23 ani
+										</a>
+									</span>
+									</div>
+								</div>
+								<div className="m-timeline-3__item m-timeline-3__item--warning">
+									<span className="m-timeline-3__item-time">
+									10:00
+									</span>
+									<div className="m-timeline-3__item-desc">
+									<span className="m-timeline-3__item-text">
+										Periaj
+									</span>
+									<br />
+									<span className="m-timeline-3__item-user-name">
+										<a href="#" className="m-link m-link--metal m-timeline-3__item-link">
+										Tomoiu Dan-Cristian, 23 ani
+										</a>
+									</span>
+									</div>
+								</div>
+								<div className="m-timeline-3__item m-timeline-3__item--brand">
+									<span className="m-timeline-3__item-time">
+									11:00
+									</span>
+									<div className="m-timeline-3__item-desc">
+									<span className="m-timeline-3__item-text">
+										Consultatie canal
+									</span>
+									<br />
+									<span className="m-timeline-3__item-user-name">
+										<a href="#" className="m-link m-link--metal m-timeline-3__item-link">
+										Voicu Bogdan, 23 ani
+										</a>
+									</span>
+									</div>
+								</div>
+								<div className="m-timeline-3__item m-timeline-3__item--success">
+									<span className="m-timeline-3__item-time">
+									12:00
+									</span>
+									<div className="m-timeline-3__item-desc">
+									<span className="m-timeline-3__item-text">
+										Tratament canal 2
+									</span>
+									<br />
+									<span className="m-timeline-3__item-user-name">
+										<a href="#" className="m-link m-link--metal m-timeline-3__item-link">
+										Tomoiu Samuel, 18 ani
+										</a>
+									</span>
+									</div>
+								</div>
+								<div className="m-timeline-3__item m-timeline-3__item--danger">
+									<span className="m-timeline-3__item-time">
+									14:00
+									</span>
+									<div className="m-timeline-3__item-desc">
+									<span className="m-timeline-3__item-text">
+										Operatie
+									</span>
+									<br />
+									<span className="m-timeline-3__item-user-name">
+										<a href="#" className="m-link m-link--metal m-timeline-3__item-link">
+										Voicu Bogdan, 23 ani
+										</a>
+									</span>
+									</div>
+								</div>
+								<div className="m-timeline-3__item m-timeline-3__item--info">
+									<span className="m-timeline-3__item-time">
+									15:00
+									</span>
+									<div className="m-timeline-3__item-desc">
+									<span className="m-timeline-3__item-text">
+									Plomba
+									</span>
+									<br />
+									<span className="m-timeline-3__item-user-name">
+										<a href="#" className="m-link m-link--metal m-timeline-3__item-link">
+										Voicu Bogdan, 23 ani
+										</a>
+									</span>
+									</div>
+								</div>
+								<div className="m-timeline-3__item m-timeline-3__item--brand">
+									<span className="m-timeline-3__item-time">
+									17:00
+									</span>
+									<div className="m-timeline-3__item-desc">
+									<span className="m-timeline-3__item-text">
+										Operație
+									</span>
+									<br />
+									<span className="m-timeline-3__item-user-name">
+										<a href="#" className="m-link m-link--metal m-timeline-3__item-link">
+										Tomoiu Dan-Cristian, 23 ani
+										</a>
+									</span>
+									</div>
+								</div>
+								</div>
+							</div>
+							{/*End::Timeline 3 */}
+							</div>
+						</div>
 						</div>
 					</div>
 				  </div>
