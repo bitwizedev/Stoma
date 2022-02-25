@@ -22,12 +22,12 @@ export default function FirstandLastname() {
 																</div>
 																<div class="form-group m-form__group row">
 																	<label class="col-xl-3 col-lg-3 col-form-label">
-																		* Name:
+																		* Nume:
 																	</label>
 																	<div class="col-xl-9 col-lg-9">
 																		<input type="text" name="name" class="form-control m-input" placeholder="" value="Nick Stone"/>
 																		<span class="m-form__help">
-																		Va rog completati cu numele si prenumele dumneavoastra
+																		Va rog completati numele si prenumele dumneavoastra
 																		</span>
 																	</div>
 																</div>														

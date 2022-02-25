@@ -4,39 +4,28 @@ import "../assets/demo/default/base/style.bundle.css";
 import FirstandLastname from "../assets/First_Last_Name";
 import CurrentData from "../assets/CurrentData";
 import Signaturepad from "../assets/SignaturePad";
-
-
-
+import LeftMenu from "../components/LeftMenu";
+import TopMenu from "../components/TopMenu";
 
 export default function CovidChestion(){
     return(
-        <div>
-   
-   ;<>
-  
-  {/* begin::Head */}
-  <meta charSet="utf-8" />
-  <title>Metronic | Form Wizard 4</title>
-  <meta name="description" content="Form wizard examples" />
-  <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
-  <meta
-    name="viewport"
-    content="width=device-width, initial-scale=1, shrink-to-fit=no"
-  />
-  {/*begin::Web font */}
-  {/*end::Web font */}
-  {/*begin::Base Styles */}
-  
-  {/* end::Head */}
-  {/* end::Body */}
-  {/* begin:: Page */}
-  <div className="m-grid m-grid--hor m-grid--root m-page">
-    {/* BEGIN: Header */}
-    {/* begin::Body */}
-    {/* END: Left Aside */}
-    <div className="m-grid__item m-grid__item--fluid m-wrapper">
-      {/* BEGIN: Subheader */}
-      {/* END: Subheader */}
+      <div className="m-grid m-grid--hor m-grid--root m-page">
+		  {/* BEGIN: Header */}
+		  <TopMenu />
+		  {/* END: Header */}		
+		  {/* begin::Body */}
+		  <div className="m-grid__item m-grid__item--fluid m-grid m-grid--ver-desktop m-grid--desktop m-body">
+			{/* BEGIN: Left Aside */}
+			<button className="m-aside-left-close  m-aside-left-close--skin-dark " id="m_aside_left_close_btn">
+				<i className="la la-close" />
+			</button>
+			<div id="m_aside_left" className="m-grid__item	m-aside-left  m-aside-left--skin-dark ">
+				{/* BEGIN: Aside Menu */}
+				<LeftMenu />
+				{/* END: Aside Menu */}
+     		 </div>
+			{/* END: Left Aside */}
+			<div className="m-grid__item m-grid__item--fluid m-wrapper">
       <div className="m-content">
         {/*Begin::Main Portlet*/}
         <div className="m-portlet m-portlet--full-height">
@@ -309,7 +298,7 @@ export default function CovidChestion(){
                       {/*end: Form Body */}
                       <FirstandLastname/>
                       <CurrentData/>
-                     <Signaturepad/>
+                      <Signaturepad/>
                       {/*begin: Form Actions */}
                       <div className="m-portlet__foot m-portlet__foot--fit m--margin-top-40">
                         <div className="m-form__actions">
@@ -367,25 +356,10 @@ export default function CovidChestion(){
           {/*End::Main Portlet*/}
         </div>
       </div>
-    </div>
-    {/* end:: Body */}
-  </div>
-  {/* end:: Page */}
-  {/* begin::Scroll Top */}
-  <div id="m_scroll_top" className="m-scroll-top">
-    <i className="la la-arrow-up" />
-  </div>
-  {/* end::Scroll Top */}
-  {/* begin::Quick Nav */}
-  {/*begin::Base Scripts */}
-  {/*end::Base Scripts */}
-  {/*begin::Page Resources */}
-  {/*end::Page Resources */}
-  {/* end::Body */}
-</>
-
-
-
-  </div>
+			</div>
+		  </div>
+		  {/* end:: Body */}
+		</div>
     )
+    
 }

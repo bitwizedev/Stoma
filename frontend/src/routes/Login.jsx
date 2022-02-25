@@ -5,9 +5,6 @@ import logo1 from "../assets/app/media/img//logos/logo-2.png";
 import background from "../assets/app/media/img//bg/bg-4.jpg";
 import logo from "../static/tooth.png";
 
-
- 
-
 export default function Login(){
   return (
     <div >
@@ -15,7 +12,7 @@ export default function Login(){
 
   {/* begin::Head */}
   <meta charSet="utf-8" />
-  <title>Metronic | Login Page - 1</title>
+  <title>Stoma</title>
   <meta name="description" content="Latest updates and statistic charts" />
   <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
   <meta
@@ -44,7 +41,7 @@ export default function Login(){
               </div>
               <div className="m-login__signin">
                 <div className="m-login__head">
-                  <h3 className="m-login__title">Autentificare Admin</h3>
+                  <h3 className="m-login__title">Autentificare Stoma</h3>
                 </div>
                 <form className="m-login__form m-form" action>
                   <div className="form-group m-form__group">
@@ -225,8 +222,6 @@ export default function Login(){
           <h3 className="m-login__welcome">Bun venit la Stoma Life</h3>
           <p className="m-login__msg">
            O platforma care va face viata mai usoara!
-           
-           
           </p>
         </div>
       </div>
